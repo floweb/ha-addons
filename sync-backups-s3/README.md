@@ -2,8 +2,8 @@
 
 Upload HomeAssistant backups to an AWS S3 bucket.
 
-![Version](https://img.shields.io/badge/dynamic/json?label=Version&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdral3x%2Fha-addons%2Fmaster%2Fsync-backups-s3%2Fconfig.json)
-![Arch](https://img.shields.io/badge/dynamic/json?color=success&label=Arch&query=%24.arch&url=https%3A%2F%2Fraw.githubusercontent.com%2Fdral3x%2Fha-addons%2Fmaster%2Fsync-backups-s3%2Fconfig.json)
+![Version](https://img.shields.io/badge/dynamic/json?label=Version&query=%24.version&url=https%3A%2F%2Fraw.githubusercontent.com%2Ffloweb%2Fha-addons%2Fmaster%2Fsync-backups-s3%2Fconfig.json)
+![Arch](https://img.shields.io/badge/dynamic/json?color=success&label=Arch&query=%24.arch&url=https%3A%2F%2Fraw.githubusercontent.com%2Ffloweb%2Fha-addons%2Fmaster%2Fsync-backups-s3%2Fconfig.json)
 
 ## Prerequisites
 
@@ -20,9 +20,9 @@ This add-on also supports S3-compatible services (like DigitalOcean, Cloudflare,
 
 The installation of this add-on is pretty straightforward and no different to installing any other Home Assistant add-on.
 
-1. Click the "Add Add-on Repository To My" button below to open the add-on on your Home Assistant instance, or manually add the repository `https://github.com/dral3x/ha-addons` in the Add-on Store.
+1. Click the "Add Add-on Repository To My" button below to open the add-on on your Home Assistant instance, or manually add the repository `https://github.com/floweb/ha-addons` in the Add-on Store.
 
-   [![Add add-on repository to my Home Assistant](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fdral3x%2Fha-addons)
+   [![Add add-on repository to my Home Assistant](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Ffloweb%2Fha-addons)
 
 2. Search for this add-on, and click it.
 3. Click the "Install" button to install the add-on.

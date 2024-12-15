@@ -32,8 +32,20 @@ if [[ $DEBUG == true ]]; then
     OPTIONS+=" --debug"
 fi
 
+echo "Compress started..."
+
+find $SOURCE -type f -name "*.tar" -exec gzip -v {} \;
+
+echo "Compress completed."
+
 echo "Sync started..."
 
 aws s3 sync $SOURCE $DESTINATION $OPTIONS
 
 echo "Sync completed."
+
+echo "Cleanup started..."
+
+find $SOURCE -type f -mtime +3 -name "*.tar" -print -delete
+
+echo "Cleanup completed."

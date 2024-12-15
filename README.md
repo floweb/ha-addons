@@ -1,10 +1,10 @@
-# Home Assistant Addons: Alessandro's repository
+# Home Assistant Addons: Floweb's repository
 
-Add-ons for Home Assistant written by Alessandro Calzavara (DrAL3X).
+Add-ons for Home Assistant written by Alessandro Calzavara (DrAL3X), forked by floweb.
 
 To add this repository, click the button below to open the add-on on your Home Assistant instance:
 
-[![Add add-on repository to my Home Assistant](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fdral3x%2Fha-addons)
+[![Add add-on repository to my Home Assistant](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Ffloweb%2Fha-addons)
 
 or do the following:
 
