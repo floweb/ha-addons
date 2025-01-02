@@ -2,7 +2,7 @@ name: Builder
 
 env:
   BUILD_ARGS: ""
-  MONITORED_FILES: "build.json config.json Dockerfile"
+  MONITORED_FILES: "build.json config.json Dockerfile run.sh"
 
 on:
   workflow_call:
