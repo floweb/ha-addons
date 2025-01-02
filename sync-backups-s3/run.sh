@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Preparing..."
+echo "Preparing sync-backups-s3..."
 aws --version
 
 # Reading config
